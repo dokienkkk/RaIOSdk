@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RaIOSdk'
-  s.version          = '0.0.1'
+  s.version          = '0.0.4'
   s.summary          = 'RaIOSdk - iOS IoT Integration SDK'
   s.description      = <<-DESC
     RaIOSdk provides authentication and IoT device control.
