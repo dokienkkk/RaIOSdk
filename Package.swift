@@ -5,21 +5,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "RaIOSdk",
+    name: "RaIOSdkKit",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "RaIOSdk",
-            targets: ["RaIOSdk"]
+            name: "RaIOSdkKit",
+            targets: ["RaIOSdkKit"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "RaIOSdk",
-            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.1/RaIOSdk-0.0.1.xcframework.zip",
-            checksum: "f7c79fdc50e1493de39c7d35f167131a28d58956a8734c7ae6f41cebafa65d5a"
+            name: "RaIOSdkKit",
+            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.2/RaIOSdkKit-0.0.2.xcframework.zip",
+            checksum: "2570225612b106ac7edf43c6917f01e66535ea3f2c518ca83ec0134e298b4dc7"
         )
     ]
 )
