@@ -6,13 +6,13 @@ Pod::Spec.new do |s|
     RaIOSdk provides authentication and IoT device control.
   DESC
 
-  s.homepage         = 'https://github.com/docongkien/RaIOSdk'
+  s.homepage         = 'https://github.com/dokienkkk/RaIOSdk'
   s.license          = { :type => 'Proprietary', :text => 'Copyright (c) 2026 docongkien. All rights reserved.' }
   s.author           = { 'docongkien' => 'docongkien.dev@gmail.com' }
 
   # Binary distribution - NO source code
   s.source           = {
-    :http => "https://github.com/docongkien/RaIOSdk/releases/download/#{s.version}/RaIOSdk-#{s.version}.xcframework.zip"
+    :http => "https://github.com/dokienkkk/RaIOSdk/releases/download/#{s.version}/RaIOSdk-#{s.version}.xcframework.zip"
   }
 
   s.platform         = :ios, '15.0'
