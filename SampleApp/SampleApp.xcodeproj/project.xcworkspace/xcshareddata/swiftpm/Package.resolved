@@ -1,0 +1,24 @@
+{
+  "originHash" : "2731bbf512e12c85edbbec88eb23b4820aac41ca66494be93a13c075848f0e60",
+  "pins" : [
+    {
+      "identity" : "iotcoreios-binary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RogoSolutions/IotCoreIOS-Binary.git",
+      "state" : {
+        "revision" : "70030089db2de33a861036f1563d779665c84eeb",
+        "version" : "0.0.8"
+      }
+    },
+    {
+      "identity" : "raiosdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dokienkkk/RaIOSdk",
+      "state" : {
+        "revision" : "6782a2d735845b332f655a4966ee4feacbf0da76",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}

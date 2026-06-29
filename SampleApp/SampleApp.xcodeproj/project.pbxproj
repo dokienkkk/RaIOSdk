@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		764A44502FCFCF3200C51574 /* RaIOSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 764A444F2FCFCF3200C51574 /* RaIOSdk */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		763E7C222FCF2C73001E8AD3 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764A44502FCFCF3200C51574 /* RaIOSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
+				764A444F2FCFCF3200C51574 /* RaIOSdk */,
 			);
 			productName = SampleApp;
 			productReference = 763E7C222FCF2C73001E8AD3 /* SampleApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 763E7C192FCF2C73001E8AD3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				764A444E2FCFCF3200C51574 /* XCRemoteSwiftPackageReference "RaIOSdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 763E7C232FCF2C73001E8AD3 /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		764A444E2FCFCF3200C51574 /* XCRemoteSwiftPackageReference "RaIOSdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dokienkkk/RaIOSdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		764A444F2FCFCF3200C51574 /* RaIOSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 764A444E2FCFCF3200C51574 /* XCRemoteSwiftPackageReference "RaIOSdk" */;
+			productName = RaIOSdk;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 763E7C1A2FCF2C73001E8AD3 /* Project object */;
 }
