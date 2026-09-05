@@ -10,14 +10,14 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/RogoSolutions/IotCoreIOS-Binary.git",
-            from: "0.0.19"
+            from: "0.0.24"
         )
     ],
     targets: [
         .binaryTarget(
             name: "RaIOSdkBinary",
-            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.21/RaIOSdk-0.0.21.xcframework.zip",
-            checksum: "2ed61c6f641ab9fbdf4cfeb3191444568f6a01a486e899d0c9898fbf4f5cdae5"
+            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.22/RaIOSdk-0.0.22.xcframework.zip",
+            checksum: "c37e3141709d18aab5c882efaa5bc85ad3abcda9377f9aea04f91c758fd03692"
         ),
         .target(
             name: "RaIOSdkWrapper",
