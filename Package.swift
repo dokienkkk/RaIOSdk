@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RaIOSdkBinary",
-            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.22/RaIOSdk-0.0.22.xcframework.zip",
-            checksum: "c37e3141709d18aab5c882efaa5bc85ad3abcda9377f9aea04f91c758fd03692"
+            url: "https://github.com/dokienkkk/RaIOSdk/releases/download/0.0.23/RaIOSdk-0.0.23.xcframework.zip",
+            checksum: "05838012f96b5c6b33570955f3abc577f7ce7ca3dbff5edcd58a62b3ec9dd3a0"
         ),
         .target(
             name: "RaIOSdkWrapper",
